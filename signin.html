@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #333a4d77;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .navbar{
+            width: 100%;
+            height: 80px;
+            background-color: #ebe5e5;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            height: 80PX;
+            width: 10%;
+        }
+        .logo img{
+            border-radius: 50%;
+        }
+        h1 {
+            font-size: 20px;
+            color:black;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 80px;
+            width:40%;
+            
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            padding: 12px;
+        }
+        .navbar ul li a:hover {
+            background-color: #ddd;
+            color:black;
+            transition:0.3s ;
+            border-radius: 20%;
+        }
+        .sign{
+            width: 27%;
+            height: 80px;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+        }
+        .sig{
+            height: 50px;
+            width: 100px;
+            font-size: medium;
+            background-color:black;
+            color: rgb(252, 248, 248);
+            text-decoration: none;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            font-size: 18px;
+            border: solid 1px;
+            border-radius: 30%;
+        }
+        .sign :hover{
+            background-color: #b6a5a5;
+            color:black;
+            transition:0.3s ;
+            border-radius: 20%;
+        }
+        /* .back-video{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        } */
+        /* @media(min-aspect-ratio:16/9){
+            .back-video{
+                width: 100%;
+                height: auto;
+            }
+        }
+        @media(min-aspect-ratio:16/9){
+            .back-video{
+                width: auto;
+                height:100%;
+            }
+        } */
+        .container2 {
+            background-color: rgba(177, 11, 11, 0);
+            width: 50%;
+            height: 150px;
+            width: 500px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 500px;
+            margin-top: 140px;      
+}
+
+         h1 {
+     text-align: center;
+     font-size: 30px;
+     margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input {
+     padding: 10px;
+     margin-bottom: 10px;
+     border: 1px solid #cccccc17;
+     border-radius: 3px;
+    }
+
+    button {
+     padding: 10px;
+     background-color: #007bff;
+     color: rgb(238, 232, 232);
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+    }
+
+    button:hover {
+     background-color: #0056b3;
+    }
+    </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/document/image1.jpg" alt="brand logo" height="50px"
+                    width="50px">
+                <h1>Travel Tales</h1>
+            </div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li> <a href="/index.html">Services</a></li>
+                <li><a href="/index.html">package</a></li>
+                <li><a href="/index.html">Gallery</a></li>
+                <li><a href="/index.html">Contact</a></li>
+            </ul>
+            <div class="sign">
+                <a href="/signin.html" class="sig">Sign in</a>
+            </div>
+        </nav>
+    </div>
+        <div class="container2">
+            <h1>Sign In</h1>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+            </form>
+        </body>
+    </html>
